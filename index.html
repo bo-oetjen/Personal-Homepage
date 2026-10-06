@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bo Oetjen's Homepage</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
 <div class="wrapper">
@@ -18,15 +27,22 @@
   </ul>
 </nav> 
 -->
-
-  <h1>Bo Oetjen</h1>
-
 <header>
-  <section class="about-me">
-    <h2>The Man, The Myth, The Legend</h2>
+  <div class="name">
+    <h2>Hello, I'm</h2>
+    <h1>Bo Oetjen</h1>
+  </div>
+  <figure>
+    <img src="Bo.jpeg" alt="Bo Oetjen">
+    <figcaption>A Legend in my Mind</figcaption>
+  </figure>
+
 </header>
 
 <main>
+  <section class="about-me">
+    <h2>The Man, The Myth, The Legend</h2>
+
     <p>
       Legally, my name is Gary Oetjen Jr., but I've gone by the nickname "Bo" since I was about six months old. How does one get a nickname that has no correlation to their legal first name? The answer to that will depend on who you ask. The story that I've heard the most is that it came from my grandfather, George William Oetjen, who went by the nickname of Bill. His friends shortened it to "Bo" by taking the first letters of "<strong><em>B</em></strong>ill" and "<strong><em>O</em></strong>etjen". But, if you ask my father, it stands for "<strong><em>B</em></strong>aby <strong><em>O</em></strong>etjen."
       <!-- I don't think I should be using the strong or em elements here; using these as a placeholder/reminder to update in future iterations of the site when CSS can control the text -->
@@ -54,7 +70,7 @@
     </p>
 
     <figure>
-      <img src="back-to-school.png" alt="First Day Back to School">
+      <img class="school" src="back-to-school.png" alt="First Day Back to School">
       <figcaption>
         As a returning student, I decided parody the "Back to School" photo trend on social media with a little help from AI.<br>
         <strong><em>This was created using AI.</em></strong>
@@ -87,23 +103,42 @@
     <p>
       Griffin is a 5 &frac12; month old Golden Retriever. As with any Golden, he's incredibly smart, but he's also not all there... much like Rose from <em>The Golden Girls</em>. He hasn't quite grasped that Hank is not as big as he is and can't rough house as much as he would like (and these are the times where the old neighbor and his cane faces come from).
     </p>
-
-    <img src="the-dogs.jpg" alt="Hank and Griffin">
-
+    
+      <img src="the-dogs.jpg" alt="Hank and Griffin">
+    
   </section>
-
-  <footer>
-    <p>
-      &copy; This site is <em>not</em> copyrighted, but you shouldn't use it for anything else.
-    </p>
-  </footer>
 
 </main>
 
 <footer>
+  <a href="https://www.facebook.com/bo.oetjen/">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <a href="https://www.instagram.com/etch51/">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://x.com/etch51">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+  <a href="https://www.tiktok.com/@etch_51?is_from_webapp=1&sender_device=pc">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/bo-oetjen-25262826">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <p>
+      &copy; This site is <em>not</em> copyrighted, but you shouldn't use it for anything else.
+  </p>
 
 </footer>
 
 </div>
+
+
 </body>
 </html>
